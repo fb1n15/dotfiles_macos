@@ -95,6 +95,8 @@ brew "libxml2"
 brew "luarocks"
 # GUI for vim, made for macOS
 brew "macvim"
+# Mac App Store command-line interface
+brew "mas"
 # HTTP/2 C Library
 brew "nghttp2"
 # Platform built on V8 to build network applications
@@ -228,3 +230,39 @@ cask "xquartz"
 cask "zoom"
 # Collect, organize, cite, and share research sources
 cask "zotero"
+mas "1Password 7", id: 1333542190
+mas "AdGuard for Safari", id: 1440147259
+mas "BBEdit", id: 404009241
+mas "Bear", id: 1091189122
+mas "Clipper", id: 1486141229
+mas "Day One", id: 1055511498
+mas "EuDic", id: 434350458
+mas "Evernote", id: 406056744
+mas "Evernote Web Clipper", id: 1481669779
+mas "Grammarly for Safari", id: 1462114288
+mas "Helium", id: 1054607607
+mas "Honey", id: 1472777122
+mas "HP Smart", id: 1474276998
+mas "Instapaper Save", id: 1481302432
+mas "iRightMouse", id: 1497428978
+mas "Irvue", id: 1039633667
+mas "KanbanView", id: 1507458952
+mas "Lightshot Screenshot", id: 526298438
+mas "Magnet", id: 441258766
+mas "Manico", id: 724472954
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "NewsGuard", id: 1438657064
+mas "Price.com", id: 1424535163
+mas "Save to Pocket", id: 1477385213
+mas "Snappy", id: 512617038
+mas "Spark", id: 1176895641
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "Turn Off the Lights for Safari", id: 1273998507
+mas "Wayback Machine", id: 1472432422
+mas "YoudaoDict", id: 491854842
+mas "穿梭", id: 1345035954
