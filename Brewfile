@@ -1,6 +1,7 @@
 tap "buo/cask-upgrade"
 tap "caskroom/cask"
 tap "dlr-ts/sumo"
+tap "eth-p/software"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
@@ -105,6 +106,8 @@ brew "node"
 brew "openjdk"
 # PDF converter to SVG
 brew "pdf2svg"
+# Highly capable, feature-rich programming language
+brew "perl"
 # Convert PostScript and PDF files to editable vector graphics
 brew "pstoedit"
 # Python version management
@@ -151,18 +154,14 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # Simulation of Urban MObility
 brew "dlr-ts/sumo/sumo"
+# Bash scripts that integrate bat with various command-line tools
+brew "eth-p/software/bat-extras"
 brew "hudochenkov/sshpass/sshpass"
 cask "aliwangwang"
-# Audio utility
-cask "background-music-pre"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
-# Video and audio player
-cask "elmedia-player"
-# European dictionary
-cask "eudic"
 # App for note taking, organizing, task lists, and archiving
 cask "evernote"
 cask "font-fira-code"
@@ -172,8 +171,6 @@ cask "github"
 cask "gitkraken"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
-# Vector graphics editor
-cask "inkscape"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Reference manager to edit, manage and search BibTeX files
@@ -226,8 +223,6 @@ cask "workflowy"
 cask "xmind"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
-# Video communication and virtual meeting platform
-cask "zoom"
 # Collect, organize, cite, and share research sources
 cask "zotero"
 mas "1Password 7", id: 1333542190
