@@ -9,9 +9,9 @@
     ~/.vimrc: 
     ~/.zshrc: 
     ~/.gitconfig: 
-    ~/.config/bat:
+    ~/.config:
       create: true
-      path: config/bat
+      path: config
 
 - create:
     - ~/Work

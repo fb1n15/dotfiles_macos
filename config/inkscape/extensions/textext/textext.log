@@ -1,0 +1,50 @@
+[2019-07-11 14:03:33,839][DEBUG   ]: First run of TexText. Enforcing DEBUG mode.          //  __init__.py:141  
+[2019-07-11 14:03:33,839][DEBUG   ]: TexText initialized          //  __init__.py:150  
+[2019-07-11 14:03:33,840][DEBUG   ]: TexText version = '0.11.0' (md5sum = cdd7dc145364a80a56fdaa5c84096461)          //  __init__.py:152  
+[2019-07-11 14:03:33,840][DEBUG   ]: platform.system() = 'Darwin'          //  __init__.py:154  
+[2019-07-11 14:03:33,840][DEBUG   ]: platform.release() = '18.6.0'          //  __init__.py:155  
+[2019-07-11 14:03:33,841][DEBUG   ]: platform.version() = 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64'          //  __init__.py:156  
+[2019-07-11 14:03:33,841][DEBUG   ]: platform.machine() = 'x86_64'          //  __init__.py:158  
+[2019-07-11 14:03:33,841][DEBUG   ]: platform.uname() = ('Darwin', 'MacBook', '18.6.0', 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'x86_64', 'i386')          //  __init__.py:159  
+[2019-07-11 14:03:33,848][DEBUG   ]: platform.mac_ver() = ('10.14.5', ('', '', ''), 'x86_64')          //  __init__.py:160  
+[2019-07-11 14:03:33,848][DEBUG   ]: sys.executable = '/usr/bin/python'          //  __init__.py:162  
+[2019-07-11 14:03:33,848][DEBUG   ]: sys.version = '2.7.10 (default, Feb 22 2019, 21:55:15) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.37.14)]'          //  __init__.py:163  
+[2019-07-11 14:03:33,848][DEBUG   ]: os.environ = {'FONTCONFIG_PATH': '/Applications/Inkscape.app/Contents/Resources/etc/fonts', 'INKSCAPE_SHAREDIR': '/Applications/Inkscape.app/Contents/Resources/share/inkscape', 'XDG_DATA_HOME': '/Users/fan/.local/share', 'PYTHONPATH': '/Applications/Inkscape.app/Contents/Resources/share/inkscape/extensions:/Applications/Inkscape.app/Contents/Resources/lib/python2.7/site-packages/', 'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'GTK_EXE_PREFIX': '/Applications/Inkscape.app/Contents/Resources', 'LOGNAME': 'fan', 'USER': 'fan', 'PANGOCAIRO_BACKEND': 'fontconfig', 'HOME': '/Users/fan', 'PATH': '/Applications/Inkscape.app/Contents/Resources/bin:/usr/bin:/Library/TeX/texbin:/usr/texbin:/opt/local/bin:/sw/bin/:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'DISPLAY': '/private/tmp/com.apple.launchd.kiCZETtGI9/org.macosforge.xquartz:0', 'MAGICK_CODER_FILTER_PATH': '/Applications/Inkscape.app/Contents/Resources/lib/ImageMagick-6.9.7/modules-Q16/filters', 'INK_PATH_ORIG': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'en_US.UTF-8', 'SHELL': '/bin/zsh', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '0', 'GNOME_VFS_MODULE_CONFIG_PATH': '/Applications/Inkscape.app/Contents/Resources/etc/gnome-vfs-2.0/modules', 'GVFS_REMOTE_VOLUME_MONITOR_IGNORE': '1', 'XPC_FLAGS': '0x0', 'PANGO_SYSCONFDIR': '/Applications/Inkscape.app/Contents/Resources/etc', 'ASPELL_CONF': 'prefix /Applications/Inkscape.app/Contents/Resources;', 'GTK_PATH': '/Applications/Inkscape.app/Contents/Resources', 'INK_CACHE_DIR': '/Users/fan/.cache/inkscape', 'XDG_CONFIG_HOME': '/Users/fan/.config', 'XPC_SERVICE_NAME': '0', 'XDG_CACHE_HOME': '/Users/fan/.cache', 'GIO_USE_VFS': 'local', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.IJBcYoU4C0/Listeners', 'MAGICK_CONFIGURE_PATH': '/Applications/Inkscape.app/Contents/Resources/lib/ImageMagick-6.9.7/config:/Applications/Inkscape.app/Contents/Resources/share/ImageMagick-6.9.7_MAJOR/config', 'PANGO_RC_FILE': '/Applications/Inkscape.app/Contents/Resources/etc/pango/pangorc', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.eiw56q1Auh/Render', 'GVFS_DISABLE_FUSE': '1', 'GTK2_RC_FILES': '/Applications/Inkscape.app/Contents/Resources/etc/gtk-2.0/gtkrc', 'LC_ALL': 'en_US.UTF-8', 'INKSCAPE_LOCALEDIR': '/Applications/Inkscape.app/Contents/Resources/share/locale', 'TMPDIR': '/var/folders/f8/hwf328yx7cl9y1mn37zvgb2m0000gp/T/', 'PACKAGE_LOCALE_DIR': '/Users/tghs/Desktop/final_build/inkscape-0.92.2/inst-osxapp/share/locale', 'INKSCAPE_PLUGINDIR': '/Applications/Inkscape.app/Contents/Resources/lib/inkscape', '_env_orig': 'Apple_PubSub_Socket_Render\nCOMMAND_MODE\nDISPLAY\nHOME\nLOGNAME\nPATH\nPWD\nSHELL\nSHLVL\nSSH_AUTH_SOCK\nTMPDIR\nUSER\nXPC_FLAGS\nXPC_SERVICE_NAME\n_\n__CF_USER_TEXT_ENCODING', 'GDK_PIXBUF_MODULE_FILE': '/Applications/Inkscape.app/Contents/Resources/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache', 'MAGICK_CODER_MODULE_PATH': '/Applications/Inkscape.app/Contents/Resources/lib/ImageMagick-6.9.7/modules-Q16/coders', 'OLDPWD': '/', 'GTK_IM_MODULE_FILE': '/Applications/Inkscape.app/Contents/Resources/lib/gtk-2.0/2.10.0/immodules.cache', '__CF_USER_TEXT_ENCODING': '0x1F6:0:2', 'XDG_DATA_DIRS': '/Applications/Inkscape.app/Contents/Resources/share', 'PWD': '/Applications/Inkscape.app', 'POPPLER_DATADIR': '/Applications/Inkscape.app/Contents/Resources/share/poppler', 'GNOME_VFS_MODULE_PATH': '/Applications/Inkscape.app/Contents/Resources/lib/gnome-vfs-2.0/modules', 'GTK_DATA_PREFIX': '/Applications/Inkscape.app/Contents/Resources', 'COMMAND_MODE': 'unix2003'}          //  __init__.py:164  
+[2019-07-11 14:03:34,195][SUCCESS ]: + [Succ] TexText requirements          //  requirements_check.py:764  
+[2019-07-11 14:03:34,195][SUCCESS ]: /-and-* [Succ] Detect inkscape          //  requirements_check.py:335  
+[2019-07-11 14:03:34,195][SUCCESS ]: |      `inkscape` is found at `/Applications/Inkscape.app/Contents/Resources/bin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |      `inkscape` is found at `/usr/local/bin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: /-and-* [Succ] Detect `python2.7`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |      python2.7 is found at `/usr/bin/python`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: /-and-+ [Succ] Detect *latex          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |     /--or-* [Succ] `pdflatex` is found at `/Library/TeX/texbin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |     /--or-* [Succ] `lualatex` is found at `/Library/TeX/texbin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |     /--or-* [Succ] `xelatex` is found at `/Library/TeX/texbin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: /-and-+ [Succ] Detect GUI library          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |     /--or-* [Succ] PyGTK2 is found          //  requirements_check.py:335  
+[2019-07-11 14:03:34,196][SUCCESS ]: |     /--or-* [Succ] TkInter is found          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]: /-and-+ [Succ] Detect pdf->svg conversion utility          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]:       /--or-+ [Succ] Detect compatible pstoedit+ghostscript versions          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]:       |     /-and-+ [Succ]           //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |     /-not-+ [Fail] Detect incompatible versions of pstoedit+ghostscript          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |           /--or-+ [Fail]           //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |           |     /-and-* [Fail] pstoedit=3.70 is not found (but pstoedit=3.74 is found)          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |           |     /-and-* [Fail] ghostscript=9.22 is not found (but ghostscript=9.27 is found)          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |           /--or-+ [Fail]           //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][INFO    ]:       |     |                 /-and-* [Fail] pstoedit<3.74 is not found (but pstoedit=3.74 is found)          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]:       |     |                 /-and-* [Succ] ghostscript=9.27= 9.27 is found          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]:       |     /-and-* [Succ] pstoedit is found          //  requirements_check.py:335  
+[2019-07-11 14:03:34,197][SUCCESS ]:       |     /-and-* [Succ] ghostscript is found          //  requirements_check.py:335  
+[2019-07-11 14:03:34,198][SUCCESS ]:       /--or-* [Succ] Detect pdf2svg:          //  requirements_check.py:335  
+[2019-07-11 14:03:34,198][SUCCESS ]:              `pdf2svg` is found at `/usr/local/bin`          //  requirements_check.py:335  
+[2019-07-11 14:03:34,264][DEBUG   ]: TexText.effect          //  __init__.py:237  
+[2019-07-11 14:03:34,264][DEBUG   ]:   Pdf2SvgPlotSvg is usable          //  __init__.py:246  
+[2019-07-11 14:03:34,265][DEBUG   ]:   Can't adjust scale to account node transformations done in inkscape. May result in loss of scale.          //  __init__.py:270  
+[2019-07-11 14:03:34,265][DEBUG   ]:   Using default node alignment `middle center`          //  __init__.py:279  
+[2019-07-11 14:03:34,265][DEBUG   ]:   Using default tex converter `pdflatex`           //  __init__.py:291  
+[2019-07-11 14:03:34,265][DEBUG   ]:   Using default preamble file `default_packages.tex`          //  __init__.py:300  
+[2019-07-11 14:03:34,265][DEBUG   ]:   Run TexText GUI          //  __init__.py:340  
+[2019-07-11 14:03:49,111][DEBUG   ]:   Run TexText GUI done          //  __init__.py:341  
+[2019-07-11 14:03:49,112][DEBUG   ]:   Saving global GUI settings          //  __init__.py:343  
+[2019-07-11 14:03:49,112][DEBUG   ]:   Saving global GUI settings done          //  __init__.py:345  
+[2019-07-11 14:03:49,113][DEBUG   ]: TexText.effect done          //  __init__.py:357  
