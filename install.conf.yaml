@@ -8,10 +8,11 @@
     ~/.vim: 
     ~/.vimrc: 
     ~/.zshrc: 
+    ~/.zshenv: 
     ~/.gitconfig: 
-    ~/.config:
+    ~/.config/bat:
       create: true
-      path: config
+      path: config/bat
 
 - create:
     - ~/Work
