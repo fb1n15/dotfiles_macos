@@ -14,8 +14,7 @@ alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 
 # Customize Prompt
-PROMPT='
-%1~ %L %# '
+PROMPT='%1~ %L %# '
 
 RPROMPT='%*'
 # Add Locations to $PATH Variable
