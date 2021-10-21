@@ -2,11 +2,12 @@ echo 'Hello from .zshrc'
 
 # Set Variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 # Change ZSH Options
 # Create Aliases
-alias ll=' ls -lAFh'
-alias ls='exa'
+alias ll='ls -lAFh'
+alias ls='exa -laFH --git'
 alias exa='exa -laFH --git'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
