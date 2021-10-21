@@ -13,6 +13,28 @@ alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 
+# Make shorthands for common flags
+alias ll='ls -lAFh'
+alias l='ls'
+
+# Save a lot of typing for common commands
+alias gs="git status"
+alias gc="git commit"
+alias v="vim"
+
+# Save you from mistyping
+alias sl=ls
+
+# Overwrite existing commands for better defaults
+alias mv="mv -i"           # -i prompts before overwrite
+alias cp='cp -i'
+alias mkdir="mkdir -p"     # -p make parent dirs as needed
+alias df="df -h"           # -h prints human readable format
+
+# Alias can be composed
+alias la="ls -A"
+alias lla="la -l"
+
 # Customize Prompt
 PROMPT='%1~ %L %# '
 
