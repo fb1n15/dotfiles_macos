@@ -7,14 +7,16 @@
 - link:
     ~/.vim: 
     ~/.vimrc: 
+    ~/.zsh:
     ~/.zshrc: 
     ~/.zshenv: 
     ~/.gitconfig: 
     ~/.config/bat:
       create: true
       path: config/bat
-    ~/.config/karabiner/karabiner.json:
-      path: config/karabiner/karabiner.json
+    ~/.config/karabiner:
+      create: true
+      path: config/karabiner
 
 
 - create:

@@ -29,6 +29,8 @@ function mkcd() {
 
 
 # Use ZSH Plugins
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 
 # ...and Other Surprises
 
