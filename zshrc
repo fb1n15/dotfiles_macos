@@ -37,9 +37,9 @@ alias la="ls -A"
 alias lla="la -l"
 
 # Customize Prompt
-PROMPT='%1~ %L %# '
+# https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %L %# '
 
-RPROMPT='%*'
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
