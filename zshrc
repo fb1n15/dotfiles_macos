@@ -3,6 +3,7 @@ echo 'Hello from .zshrc'
 # Set Variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
+export BAT_THEME="GitHub"
 
 # Change ZSH Options
 # Create Aliases
