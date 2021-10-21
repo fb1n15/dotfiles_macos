@@ -98,6 +98,8 @@ brew "luarocks"
 brew "macvim"
 # Mac App Store command-line interface
 brew "mas"
+# Free (GNU) replacement for the Pico text editor
+brew "nano"
 # HTTP/2 C Library
 brew "nghttp2"
 # Platform built on V8 to build network applications
