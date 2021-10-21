@@ -9,6 +9,7 @@ alias ll=' ls -lAFh'
 alias ls='exa'
 alias exa='exa -laFH --git'
 alias man=batman
+alias bbd='brew bundle dump --force --describe'
 
 
 # Customize Prompt
@@ -24,6 +25,9 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
+
+
+
 # Use ZSH Plugins
 
 # ...and Other Surprises
