@@ -90,6 +90,8 @@ brew "shared-mime-info"
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Pager program similar to more
+brew "less"
 # GNOME XML library
 brew "libxml2"
 # Package manager for the Lua programming language
@@ -98,12 +100,12 @@ brew "luarocks"
 brew "macvim"
 # Mac App Store command-line interface
 brew "mas"
+# Node version management
+brew "n"
 # Free (GNU) replacement for the Pico text editor
 brew "nano"
 # HTTP/2 C Library
 brew "nghttp2"
-# Platform built on V8 to build network applications
-brew "node"
 # Development kit for the Java programming language
 brew "openjdk"
 # PDF converter to SVG

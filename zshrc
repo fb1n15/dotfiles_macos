@@ -4,6 +4,8 @@ echo 'Hello from .zshrc'
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export BAT_THEME="GitHub"
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 # Create Aliases
@@ -43,6 +45,7 @@ PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %L %# '
 # Add Locations to $PATH Variable
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:$N_PREFIX/bin"  # apps installed by n
 
 # Write Handy Functions
 function mkcd() {
