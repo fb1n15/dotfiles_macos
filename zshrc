@@ -44,9 +44,9 @@ alias lla="la -l"
 PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %L %# '
 
 # Add Locations to $PATH Variable
+export PATH="$N_PREFIX/bin:$PATH"  # apps installed by n
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-export PATH="$PATH:$N_PREFIX/bin"  # apps installed by n
 
 # Write Handy Functions
 function mkcd() {

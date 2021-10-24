@@ -146,6 +146,8 @@ brew "tree"
 brew "virtualenv"
 # Internet file retriever
 brew "wget"
+# JavaScript package manager
+brew "yarn"
 # Modular BSD reimplementation of NASM
 brew "yasm"
 # Download YouTube videos from the command-line
