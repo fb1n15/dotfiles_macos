@@ -33,6 +33,7 @@ alias mv="mv -i"           # -i prompts before overwrite
 alias cp='cp -i'
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
 alias df="df -h"           # -h prints human readable format
+alias rm=trash
 
 # Alias can be composed
 alias la="ls -A"
