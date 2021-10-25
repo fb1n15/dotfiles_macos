@@ -17,6 +17,7 @@
     ~/.config/karabiner:
       create: true
       path: config/karabiner
+    ~/.ssh:
 
 
 - create:
