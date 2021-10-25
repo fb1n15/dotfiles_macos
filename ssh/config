@@ -1,0 +1,14 @@
+ServerAliveInterval 30
+ServerAliveCountMax 120
+Host iridis5
+     HostName iridis5_b.soton.ac.uk
+     User fb1n15
+     Port 22
+     LocalForward 8888 localhost:8888
+     LocalForward 6006 localhost:6006
+     LocalForward 8265 localhost:8265
+     AddKeysToAgent yes
+     UseKeychain yes
+     IdentityFile ~/.ssh/id_ed25519
+     IdentityFile ~/.ssh/id_rsa 
+
