@@ -9,13 +9,12 @@ export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 # Create Aliases
-alias cd = dc
+alias dc='cd'
 alias ll='ls -lAFh'
 alias exa='exa -laFH --git'
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
-alias muc='history 1 | awk '{$1="";print substr($0,2)}' | sort | uniq -c | sort -n | tail -n 15'
 
 
 # Make shorthands for common flags
