@@ -17,6 +17,8 @@
     ~/.config/karabiner:
       create: true
       path: config/karabiner
+    ~/.tmux.conf:
+
 
 
 - create:
