@@ -9,6 +9,7 @@ export PREFIX="$N_PREFIX"
 
 # Change ZSH Options
 # Create Aliases
+alias cd = dc
 alias ll='ls -lAFh'
 alias ls='exa -laFH --git'
 alias exa='exa -laFH --git'
