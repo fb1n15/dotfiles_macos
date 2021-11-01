@@ -18,6 +18,9 @@
       create: true
       path: config/karabiner
     ~/.tmux.conf:
+    ~/.ssh:
+      create: true
+      path: ~/Dropbox/dotfiles/ssh
 
 
 
