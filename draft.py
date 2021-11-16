@@ -1,3 +1,8 @@
+# sort a series of numbers
 
-function calculate_days_between_dates(start_date, end_date):
-    start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
+
+def sort(nums):
+    return sorted(nums)
+
+
+well_sorted = sort([5, 3, 6, 2, 10])

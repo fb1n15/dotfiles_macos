@@ -10,6 +10,7 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 # Create Aliases
 alias dc='cd'
+alias cls='clear'
 alias ll='ls -lAFh'
 alias exa='exa -laFH --git'
 alias man=batman

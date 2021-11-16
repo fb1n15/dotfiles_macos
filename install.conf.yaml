@@ -17,6 +17,9 @@
     ~/.config/karabiner:
       create: true
       path: config/karabiner
+    ~/.config/iterm2:
+      create: true
+      path: config/iterm2
     ~/.tmux.conf:
     ~/.ssh:
       create: true
