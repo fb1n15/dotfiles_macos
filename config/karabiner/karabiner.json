@@ -298,7 +298,7 @@
                         ]
                       },
                     {
-                        "description": "left control to esc if pressed alone",
+                        "description": "left control to left command, to esc if pressed alone",
                         "manipulators": [
                             {
                                 "from": {
@@ -311,12 +311,33 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_control"
+                                        "key_code": "left_command"
                                     }
                                 ],
                                 "to_if_alone": [
                                     {
                                         "key_code": "escape"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "left command to control",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_control"
                                     }
                                 ],
                                 "type": "basic"
