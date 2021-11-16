@@ -35,6 +35,7 @@ local appNames = {
   "PyCharm",
   "Safari",
   "iTerm",
+  "Things"
 }
 
 local function launchApps()
