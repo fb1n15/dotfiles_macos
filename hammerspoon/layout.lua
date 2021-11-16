@@ -22,7 +22,14 @@ local layoutWideScreen = {
   {"Safari", nil, MACBOOK_MONITOR, positions.full, nil, nil},
 }
 
--- launch Apps
+-- layout for a single screen
+local layoutSingleScreen = {
+  {"Google Chrome", nil, MACBOOK_MONITOR, hs.layout.maximized, nil, nil},
+  {"PyCharm", nil, MACBOOK_MONITOR, hs.layout.maximized, nil, nil},
+  {"Safari", nil, MACBOOK_MONITOR, hs.layout.maximized, nil, nil},
+}
+
+-- launch a bunch of Apps
 local appNames = {
   "Google Chrome",
   "PyCharm",
@@ -38,14 +45,14 @@ end
 
 -- add a menu icon
 local menu = hs.menubar.new()
--- local function setSingleScreen()
---   menu:setTitle("🖥1")
---   menu:setTooltip("Single Screen Layout")
---   hs.layout.apply(layoutSingleScreen)
--- end
+local function setSingleScreen()
+  menu:setTitle("1🖥")
+  menu:setTooltip("Single Screen Layout")
+  hs.layout.apply(layoutSingleScreen)
+end
 
 local function setWideScreen()
-  menu:setTitle("🖥2")
+  menu:setTitle("2🖥s")
   menu:setTooltip("Wide Screen Layout")
   hs.layout.apply(layoutWideScreen)
 end
@@ -56,7 +63,7 @@ local function enableMenu()
   menu:setMenu({
       { title = "Launch Apps", fn = launchApps },
       { title = "Set Wide Screen Layout", fn = setWideScreen },
---       { title = "Set Single Screen Layout", fn = setSingleScreen },
+      { title = "Set Single Screen Layout", fn = setSingleScreen },
   })
 end
 
