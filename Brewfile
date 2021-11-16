@@ -18,6 +18,8 @@ brew "glib"
 brew "gdk-pixbuf"
 # Generate introspection data for GObject libraries
 brew "gobject-introspection"
+# OpenType text shaping engine
+brew "harfbuzz"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Image format providing lossless and lossy compression for web images
@@ -50,6 +52,8 @@ brew "gsettings-desktop-schemas"
 brew "gtk+3"
 # Integrates GTK macOS applications with the Mac desktop
 brew "gtk-mac-integration"
+# Compiler for the GObject type system
+brew "vala"
 # Flexible API to implement spellchecking in GTK+ applications
 brew "gspell"
 # Multi-format archive and compression library
@@ -58,6 +62,8 @@ brew "libarchive"
 brew "libgxps", link: true
 # Library for storing/retrieving passwords and other secrets
 brew "libsecret"
+# Cross-platform application and UI framework
+brew "qt"
 # PDF rendering library (based on the xpdf-3.0 code base)
 brew "poppler"
 # GNOME document viewer
@@ -177,6 +183,8 @@ cask "github"
 cask "gitkraken"
 # Utility to fix grammar errors and style issues in text
 cask "grammarly"
+# Desktop automation application
+cask "hammerspoon"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
 # Reference manager to edit, manage and search BibTeX files
@@ -257,13 +265,13 @@ mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Microsoft Word", id: 462054704
 mas "NewsGuard", id: 1438657064
+mas "Night Eye", id: 1450504903
 mas "Price.com", id: 1424535163
 mas "Save to Pocket", id: 1477385213
 mas "Snappy", id: 512617038
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
-mas "Turn Off the Lights for Safari", id: 1273998507
 mas "Wayback Machine", id: 1472432422
 mas "YoudaoDict", id: 491854842
 mas "穿梭", id: 1345035954

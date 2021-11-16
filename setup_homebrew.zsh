@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+# shellcheck disable=SC2028
 echo "\n<<< Starting Homebrew Setup >>>\n"
 
 if exists brew; then

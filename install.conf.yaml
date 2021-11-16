@@ -20,6 +20,9 @@
     ~/.config/iterm2:
       create: true
       path: config/iterm2
+    ~/.hammerspoon:
+      if: '[ `uname` = Darwin ]'
+      path: hammerspoon
     ~/.tmux.conf:
     ~/.ssh:
       create: true
