@@ -1,4 +1,3 @@
 Brewfile.lock.json
 /.idea/
-/config/iterm2/AppSupport/
-/config/iterm2/
+/.vscode/
