@@ -43,7 +43,7 @@ alias lla="la -l"
 
 # Customize Prompt
 # https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
-PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %L %F{033}⟩%f%F{118}⟩%f%F{196}⟩%f'
+PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %F{033}⟩%f%F{118}⟩%f%F{196}⟩%f '
 
 # Add Locations to $PATH Array
 
@@ -62,10 +62,10 @@ function mkcd() {
 }
 
 
-
 # Use ZSH Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/zsh-vim-mode/zsh-vim-mode.plugin.zsh
 
 # ...and Other Surprises
 
@@ -84,4 +84,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
