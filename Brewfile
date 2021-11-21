@@ -268,7 +268,6 @@ mas "NewsGuard", id: 1438657064
 mas "Night Eye", id: 1450504903
 mas "Price.com", id: 1424535163
 mas "Save to Pocket", id: 1477385213
-mas "Snappy", id: 512617038
 mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696

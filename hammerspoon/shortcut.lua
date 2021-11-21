@@ -4,7 +4,7 @@ function systemKey(key)
 end
 
 -- lock screen by starting screensaver
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Q", function() hs.caffeinate.startScreensaver() end)
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "L", function() hs.caffeinate.startScreensaver() end)
 
 -- -- simulate media keys for external keyboard
 -- hs.hotkey.bind({'shift', 'cmd'}, 'pad5', function() systemKey('PLAY') end)
