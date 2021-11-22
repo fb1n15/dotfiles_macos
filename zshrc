@@ -10,6 +10,8 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 # Create Aliases
 alias dc='cd'
+alias ls='ls -G'
+alias cat='bat'
 alias cls='clear'
 alias ll='ls -lAFh'
 alias exa='exa -laFH --git'
@@ -17,10 +19,9 @@ alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
 
-
 # Make shorthands for common flags
 alias ll='ls -lAFh'
-alias l='ls'
+alias l='ls -G'
 
 # Save a lot of typing for common commands
 alias gs="git status"
