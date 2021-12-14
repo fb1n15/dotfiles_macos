@@ -53,19 +53,19 @@ end
 -- add a menu icon
 local menu = hs.menubar.new()
 local function setSingleScreen()
-  menu:setTitle("1🖥")
+  menu:setTitle("🖥")
   menu:setTooltip("Single Screen Layout")
   hs.layout.apply(layoutSingleScreen)
 end
 
 local function setWideScreen()
-  menu:setTitle("3🖥s")
+  menu:setTitle("🖥")
   menu:setTooltip("Wide Screen Layout")
   hs.layout.apply(layoutWideScreen)
 end
 
 local function setTwoScreens()
-  menu:setTitle("2🖥s")
+  menu:setTitle("🖥")
   menu:setTooltip("Two Screens Layout")
   hs.layout.apply(layoutTwoScreens)
 end
