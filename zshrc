@@ -12,7 +12,7 @@ export PREFIX="$N_PREFIX"
 alias dc='cd'
 alias ls='ls -G'
 alias cat='bat'
-alias cls='clear'
+alias c='clear'  # Clear Screen
 alias ll='ls -lAFh'
 alias exa='exa -laFH --git'
 alias man=batman
@@ -61,7 +61,6 @@ path=(
 function mkcd() {
   mkdir -p "$@" && cd "$_";
 }
-
 
 # Use ZSH Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh

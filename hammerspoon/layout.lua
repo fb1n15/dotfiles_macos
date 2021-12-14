@@ -22,6 +22,12 @@ local layoutWideScreen = {
   {"Safari", nil, MACBOOK_MONITOR, positions.full, nil, nil},
 }
 
+-- layout for the two screen (one in landscape and one in portrait)
+local layoutTwoScreens = {
+  {"Google Chrome", nil, DELL_MONITOR, positions.top, nil, nil},
+  {"PyCharm", nil, ACER_MONITOR, positions.full, nil, nil},
+  {"Safari", nil, DELL_MONITOR, positions.bottom, nil, nil},
+}
 -- layout for a single screen
 local layoutSingleScreen = {
   {"Google Chrome", nil, MACBOOK_MONITOR, hs.layout.maximized, nil, nil},
@@ -53,9 +59,15 @@ local function setSingleScreen()
 end
 
 local function setWideScreen()
-  menu:setTitle("2🖥s")
+  menu:setTitle("3🖥s")
   menu:setTooltip("Wide Screen Layout")
   hs.layout.apply(layoutWideScreen)
+end
+
+local function setTwoScreens()
+  menu:setTitle("2🖥s")
+  menu:setTooltip("Two Screens Layout")
+  hs.layout.apply(layoutTwoScreens)
 end
 
 local function enableMenu()
@@ -64,6 +76,7 @@ local function enableMenu()
   menu:setMenu({
       { title = "Launch Apps", fn = launchApps },
       { title = "Set Wide Screen Layout", fn = setWideScreen },
+      { title = "Set Two Screens Layout", fn = setTwoScreens },
       { title = "Set Single Screen Layout", fn = setSingleScreen },
   })
 end
