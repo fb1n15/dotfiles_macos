@@ -10,8 +10,6 @@ tap "homebrew/core"
 tap "hudochenkov/sshpass"
 # Search tool like grep, but optimized for programmers
 brew "ack"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9", link: false
 # Core application library for C
 brew "glib"
 # Toolkit for image loading and pixel buffer manipulation
@@ -20,6 +18,8 @@ brew "gdk-pixbuf"
 brew "gobject-introspection"
 # OpenType text shaping engine
 brew "harfbuzz"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Image format providing lossless and lossy compression for web images
@@ -28,6 +28,8 @@ brew "webp"
 brew "python@3.8"
 # GNOME accessibility toolkit
 brew "atk"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
 # Shell extension to jump to frequently used directories
 brew "autojump"
 # Tool for generating GNU Standards-compliant Makefiles
@@ -96,6 +98,8 @@ brew "shared-mime-info"
 brew "libheif"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick"
+# Interactive environments for writing and running code
+brew "jupyterlab"
 # Pager program similar to more
 brew "less"
 # GNOME XML library
@@ -118,6 +122,8 @@ brew "openjdk"
 brew "pdf2svg"
 # Highly capable, feature-rich programming language
 brew "perl"
+# Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML
+brew "prettier"
 # Convert PostScript and PDF files to editable vector graphics
 brew "pstoedit"
 # Python version management
@@ -170,6 +176,8 @@ brew "dlr-ts/sumo/sumo"
 brew "eth-p/software/bat-extras"
 brew "hudochenkov/sshpass/sshpass"
 cask "aliwangwang"
+# Distribution of the Python and R programming languages for scientific computing
+cask "anaconda"
 # App to build and share containerized applications and microservices
 cask "docker"
 # Client for the Dropbox cloud storage service
@@ -190,6 +198,8 @@ cask "iterm2"
 # Reference manager to edit, manage and search BibTeX files
 cask "jabref"
 cask "java"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
 # Interface for reading and syncing eBooks
 cask "kindle"
 # Controls and monitors all fans on Apple computers
@@ -239,38 +249,3 @@ cask "xmind"
 cask "xquartz"
 # Collect, organize, cite, and share research sources
 cask "zotero"
-mas "1Password 7", id: 1333542190
-mas "AdGuard for Safari", id: 1440147259
-mas "BBEdit", id: 404009241
-mas "Bear", id: 1091189122
-mas "Clipper", id: 1486141229
-mas "Day One", id: 1055511498
-mas "EuDic", id: 434350458
-mas "Evernote", id: 406056744
-mas "Evernote Web Clipper", id: 1481669779
-mas "Grammarly for Safari", id: 1462114288
-mas "Helium", id: 1054607607
-mas "Honey", id: 1472777122
-mas "HP Smart", id: 1474276998
-mas "Instapaper Save", id: 1481302432
-mas "iRightMouse", id: 1497428978
-mas "Irvue", id: 1039633667
-mas "KanbanView", id: 1507458952
-mas "Lightshot Screenshot", id: 526298438
-mas "Magnet", id: 441258766
-mas "Manico", id: 724472954
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft Word", id: 462054704
-mas "NewsGuard", id: 1438657064
-mas "Night Eye", id: 1450504903
-mas "Price.com", id: 1424535163
-mas "Save to Pocket", id: 1477385213
-mas "Spark", id: 1176895641
-mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "Wayback Machine", id: 1472432422
-mas "YoudaoDict", id: 491854842
-mas "穿梭", id: 1345035954
