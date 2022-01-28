@@ -1,3 +1,4 @@
+# Taps
 tap "buo/cask-upgrade"
 tap "caskroom/cask"
 tap "dlr-ts/sumo"
@@ -8,6 +9,8 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "hudochenkov/sshpass"
+
+# Brews (Packages)
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Core application library for C
