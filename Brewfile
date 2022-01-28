@@ -1,4 +1,3 @@
-# Taps
 tap "buo/cask-upgrade"
 tap "caskroom/cask"
 tap "dlr-ts/sumo"
@@ -9,8 +8,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "hudochenkov/sshpass"
-
-# Brews (Packages)
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Core application library for C
@@ -86,7 +83,7 @@ brew "fzf"
 # Work on GitHub issues on the command-line
 brew "ghi"
 # Distributed revision control system
-brew "git", link: false
+brew "git"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Improved top (interactive process viewer)
@@ -109,6 +106,8 @@ brew "less"
 brew "libxml2"
 # Package manager for the Lua programming language
 brew "luarocks"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # GUI for vim, made for macOS
 brew "macvim"
 # Mac App Store command-line interface
@@ -131,6 +130,8 @@ brew "prettier"
 brew "pstoedit"
 # Python version management
 brew "pyenv"
+# GLib/GObject/GIO Python bindings for Python 2
+brew "pygobject"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -179,6 +180,8 @@ brew "dlr-ts/sumo/sumo"
 brew "eth-p/software/bat-extras"
 brew "hudochenkov/sshpass/sshpass"
 cask "aliwangwang"
+# Desktop client for Amazon Music
+cask "amazon-music"
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # App to build and share containerized applications and microservices
@@ -252,3 +255,43 @@ cask "xmind"
 cask "xquartz"
 # Collect, organize, cite, and share research sources
 cask "zotero"
+mas "AdGuard for Safari", id: 1440147259
+mas "BBEdit", id: 404009241
+mas "Bear", id: 1091189122
+mas "CollageIt 3 Lite", id: 675540049
+mas "com.pearlmountainsoft.CollageIt3Pro", id: 675502824
+mas "Day One", id: 1055511498
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "Evernote", id: 406056744
+mas "Evernote Web Clipper", id: 1481669779
+mas "Fotor Photo Editor", id: 503039729
+mas "Grammarly for Safari", id: 1462114288
+mas "Helium", id: 1054607607
+mas "Honey", id: 1472777122
+mas "HP Smart", id: 1474276998
+mas "Hush", id: 1544743900
+mas "Instantane", id: 946685517
+mas "Instapaper Save", id: 1481302432
+mas "Magnet", id: 441258766
+mas "Manico", id: 724472954
+mas "Mendeley Web Importer", id: 1577516695
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "NewsGuard", id: 1485417785
+mas "Night Eye", id: 1450504903
+mas "Picture Collage Maker 3 Lite", id: 715483615
+mas "Price.com", id: 1424535163
+mas "Push to Kindle", id: 1548529953
+mas "Reeder", id: 1529448980
+mas "scite", id: 1551820111
+mas "Spark", id: 1176895641
+mas "Super Agent", id: 1568262835
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "Vimari", id: 1480933944
+mas "Wayback Machine", id: 1472432422
+mas "YoudaoDict", id: 491854842
+mas "穿梭", id: 1345035954

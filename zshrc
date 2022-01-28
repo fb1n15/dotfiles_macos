@@ -1,7 +1,7 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
-export HOMEBREW_CASK_OPTS="--no-quarantine"
+export HOMEBREW_CASK_OPTS="--no-quarantine"  # Prevent Cask from quarantining apps
 export NULLCMD=bat
 export BAT_THEME="GitHub"
 export N_PREFIX="$HOME/.n"

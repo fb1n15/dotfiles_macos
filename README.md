@@ -35,4 +35,57 @@ From [anishathalyedotbot: A tool that bootstraps your dotfiles ⚡️](https://g
     `--except`
     You can call `./install --except [list of directives]`, such as `./install --except shell`, and Dotbot will run all the sections of the config file except the ones listed.
 
+## Restore Instructions
 
+(e.g., set up a new machine)
+1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
+2. `git clone` this repository
+3. `cd` into the dotfiles directory
+4. `./install`
+5. Restart your machine
+6. Setup Dropbox (Alfred settings are stored here)
+7. Generate ssh key, add to GitHub, and switch remotes.
+  ```bash
+  # Generate SSH key in default location (~/.ssh/config)
+  ssh-keygen -t rsa -b 4096 -C "66495007+eieioxyz@users.noreply.github.com"
+
+  # Start the ssh-agent
+  eval "$(ssh-agent -s)"
+
+  # Create config file with necessary settings
+  << EOF > ~/.ssh/config
+  Host *
+    AddKeysToAgent yes
+    UseKeychain yes
+    IdentityFile ~/.ssh/id_rsa
+  EOF
+
+  # Add private key to ssh-agent 
+  ssh-add -K ~/.ssh/id_rsa
+
+  # Copy public key and add to github.com > Settings > SSH and GPG keys
+  pbcopy < ~/.ssh/id_rsa.pub
+
+  # Test SSH connection, then verify fingerprint and username
+  # https://help.github.com/en/github/authenticating-to-github/testing-your-ssh-connection
+  ssh -T git@github.com
+
+  # Switch from HTTPS to SSH
+  git remote set-url origin git@github.com:eieioxyz/dotfiles_macos.git
+  ```
+
+### Manual Steps
+- Mission Control Preference (don't rearrange spaces)
+- Finder Show Path Bar
+- Trackpad (enable 3-finger drag)
+- Git (config and SSH)
+
+#### CleanShot X 
+1. Change `System Preferences > Keyboard > Shortcuts > Keyboard Shortcuts > Screenshots` to avoid shortcuts conflict
+
+#### Alfred
+1. `System Preferences > Keyboard > Shortcuts > Spotlight > Show Spotlight search (cmd+space)` uncheck.
+2. `Alfred Preferences > Powerpack` add License.
+3. `Alfred Preferences > General > Request Permissions`.
+4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
+5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`
