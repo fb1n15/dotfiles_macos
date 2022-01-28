@@ -89,3 +89,22 @@ From [anishathalyedotbot: A tool that bootstraps your dotfiles ⚡️](https://g
 3. `Alfred Preferences > General > Request Permissions`.
 4. `Alfred Preferences > General > Alfred Hotkey` change to `cmd+space`.
 5. `Alfred Preferences > Advanced > Set preferences folder` and set to `~/Dropbox/dotfiles/Alfred`
+
+#### Setapp
+The apps in Setapp that I use are:
+- BetterTouchTool
+- CleanShot X
+- Secrets
+- Ulysses
+- Newton
+- Mate Translate
+- AdGuard
+- Luminar
+- Mouseless
+- Downie
+- MoneyWiz
+- AnyTrans for iOS
+- Merlin Project Express
+- Backtrack
+- Image2icon
+- Dash
