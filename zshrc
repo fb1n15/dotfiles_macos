@@ -68,7 +68,7 @@ function mkcd() {
 # Use ZSH Plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.zsh/zsh-vim-mode/zsh-vim-mode.plugin.zsh
+source ~/.zsh/zsh-vim-mode/zsh-vi-mode.plugin.zsh
 
 # ...and Other Surprises
 
