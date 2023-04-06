@@ -49,7 +49,7 @@ alias lla="la -l"
 # https://scriptingosx.com/2019/07/moving-to-zsh-06-customizing-the-zsh-prompt/
 PROMPT='%(?.%F{green}√.%F{red}?%?)%f %B%F{240}%2~ %F{033}⟩%f%F{118}⟩%f%F{196}⟩%f '
 
-# Add Locations to $PATH Array
+# Add Locations to $PATH variable
 
 # make sure no duplicate paths
 typeset -U path
