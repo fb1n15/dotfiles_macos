@@ -14,11 +14,11 @@ export PREFIX="$N_PREFIX"
 # Change ZSH Options
 # Create Aliases
 alias dc='cd'
-alias ls='ls -G'  # -G for color
+alias l='ls -G'  # -G for color
 alias cat='bat'
 alias c='clear'  # Clear Screen
 alias ll='ls -lAFh'
-alias l='exa -laFH --git'  # -l for long, -a for all, -F for file type, -h for human readable, -F for file type, -H for human readable
+alias ls='exa -laFH --git'  # -l for long, -a for all, -F for file type, -h for human readable, -F for file type, -H for human readable
 alias man=batman
 alias bbd='brew bundle dump --force --describe'
 alias trail='<<<${(F)path}'
