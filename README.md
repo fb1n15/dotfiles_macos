@@ -11,6 +11,7 @@ https://github.com/Homebrew/homebrew-bundle
 
 dump current apps to Brewfile
 
+`bdd` or
 `brew bundle dump --force --describe`
 
 Import from Brewfile
