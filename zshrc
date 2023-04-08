@@ -1,4 +1,5 @@
 echo 'Hello from .zshrc'
+echo 'Dream it possible, then make it happen. 🎇'
 
 # Set Variables
 export HOMEBREW_CASK_OPTS="--no-quarantine"  # Prevent Cask from quarantining apps
@@ -19,9 +20,9 @@ alias cat='bat'
 alias c='clear'  # Clear Screen
 alias ll='ls -lAFh'
 alias ls='exa -laFH --git'  # -l for long, -a for all, -F for file type, -h for human readable, -F for file type, -H for human readable
-alias man=batman
-alias bbd='brew bundle dump --force --describe'
-alias trail='<<<${(F)path}'
+alias man=batman  # better manual pages
+alias bbd='brew bundle dump --force --describe' . # brew bundle dump
+alias trail='<<<${(F)path}'  # print $PATH
 
 # Make shorthands for common flags
 alias ll='ls -lAFh'
