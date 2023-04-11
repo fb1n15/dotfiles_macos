@@ -186,10 +186,16 @@ cask "amazon-music"
 cask "anaconda"
 # App to build and share containerized applications and microservices
 cask "docker"
+<<<<<<< Updated upstream
 # Client for the Dropbox cloud storage service
 cask "dropbox"
 # App for note taking, organizing, task lists, and archiving
 cask "evernote"
+=======
+# Calendar software
+cask "fantastical"
+# Free monospaced font with programming ligatures
+>>>>>>> Stashed changes
 cask "font-fira-code"
 # Desktop client for GitHub repositories
 cask "github"
