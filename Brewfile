@@ -217,10 +217,8 @@ cask "xmind"
 # Open-source version of the X.Org X Window System
 cask "xquartz"
 mas "AdGuard for Safari", id: 1440147259
-mas "BBEdit", id: 404009241
 mas "Bear", id: 1091189122
 mas "CapCut", id: 1500855883
-mas "CollageIt 3 Lite", id: 675540049
 mas "com.pearlmountainsoft.CollageIt3Pro", id: 675502824
 mas "CopyClip", id: 595191960
 mas "Day One", id: 1055511498
@@ -231,7 +229,6 @@ mas "Fotor Photo Editor", id: 503039729
 mas "Grammarly for Safari", id: 1462114288
 mas "Helium", id: 1054607607
 mas "HiSuite", id: 1232508288
-mas "HP Smart", id: 1474276998
 mas "Hush", id: 1544743900
 mas "Instantane", id: 946685517
 mas "Instapaper Save", id: 1481302432
@@ -248,9 +245,6 @@ mas "Microsoft Word", id: 462054704
 mas "NewsGuard", id: 1485417785
 mas "Night Eye", id: 1450504903
 mas "Paste", id: 967805235
-mas "PayPal Honey", id: 1472777122
-mas "Picture Collage Maker 3 Lite", id: 715483615
-mas "Price.com", id: 1424535163
 mas "Push to Kindle", id: 1548529953
 mas "Reeder", id: 1529448980
 mas "scite", id: 1551820111
