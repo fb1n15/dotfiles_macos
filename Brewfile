@@ -178,85 +178,93 @@ brew "dlr-ts/sumo/sumo"
 # Bash scripts that integrate bat with various command-line tools
 brew "eth-p/software/bat-extras"
 brew "hudochenkov/sshpass/sshpass"
-# Desktop client for Amazon Music
-cask "amazon-music"
-# Distribution of the Python and R programming languages for scientific computing
-cask "anaconda"
-# App to build and share containerized applications and microservices
-cask "docker"
-# Free monospaced font with programming ligatures
-cask "font-fira-code"
-# Desktop client for GitHub repositories
-cask "github"
-# Utility to fix grammar errors and style issues in text
-cask "grammarly"
-# Reference manager to edit, manage and search BibTeX files
-cask "jabref"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
-# Research management tool
-cask "mendeley-reference-manager"
-# Utility to toggle dark mode
-cask "nightowl"
-# IDE for professional Python development
-cask "pycharm"
-# Instant messaging tool
-cask "qq"
-# PDF reader and note-taking application
-cask "skim"
-# Team communication and collaboration software
-cask "slack"
-# Graphical client for Git version control
-cask "sourcetree"
-# Utility for producing audio feedback when typing
-cask "tickeys"
-# Open-source code editor
-cask "visual-studio-code"
-# Mind mapping and brainstorming tool
-cask "xmind"
-# Open-source version of the X.Org X Window System
-cask "xquartz"
-mas "AdGuard for Safari", id: 1440147259
-mas "Bear", id: 1091189122
-mas "CapCut", id: 1500855883
-mas "com.pearlmountainsoft.CollageIt3Pro", id: 675502824
-mas "CopyClip", id: 595191960
-mas "Day One", id: 1055511498
-mas "DuckDuckGo Privacy for Safari", id: 1482920575
-mas "Evernote", id: 406056744
-mas "Evernote Web Clipper", id: 1481669779
-mas "Fotor Photo Editor", id: 503039729
-mas "Grammarly for Safari", id: 1462114288
-mas "Helium", id: 1054607607
-mas "HiSuite", id: 1232508288
-mas "Hush", id: 1544743900
-mas "Instantane", id: 946685517
-mas "Instapaper Save", id: 1481302432
-mas "Kindle", id: 405399194
-mas "Magnet", id: 441258766
-mas "Manico", id: 724472954
-mas "Mendeley Web Importer", id: 1577516695
-mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
-mas "Microsoft PowerPoint", id: 462062816
-mas "Microsoft Remote Desktop", id: 1295203466
-mas "Microsoft Word", id: 462054704
-mas "NewsGuard", id: 1485417785
-mas "Night Eye", id: 1450504903
-mas "Paste", id: 967805235
-mas "Push to Kindle", id: 1548529953
-mas "Reeder", id: 1529448980
-mas "scite", id: 1551820111
-mas "Secrets", id: 973049011
-mas "Spark", id: 1176895641
-mas "Super Agent", id: 1568262835
-mas "The Unarchiver", id: 425424353
-mas "Things", id: 904280696
-mas "TickTick", id: 966085870
-mas "Vimari", id: 1480933944
-mas "Wayback Machine", id: 1472432422
-mas "WeChat", id: 836500024
-mas "WhatsApp", id: 1147396723
-mas "穿梭", id: 1345035954
-mas "网易有道词典", id: 491854842
+# # Application launcher and productivity software
+# cask "alfred"
+# # Distribution of the Python and R programming languages for scientific computing
+# cask "anaconda"
+# # App to build and share containerized applications and microservices
+# cask "docker"
+# # Client for the Dropbox cloud storage service
+# cask "dropbox"
+# # Free monospaced font with programming ligatures
+# cask "font-fira-code"
+# # Desktop client for GitHub repositories
+# cask "github"
+# # Utility to fix grammar errors and style issues in text
+# cask "grammarly"
+# # Terminal emulator as alternative to Apple's Terminal app
+# cask "iterm2"
+# # Reference manager to edit, manage and search BibTeX files
+# cask "jabref"
+# # JetBrains tools manager
+# cask "jetbrains-toolbox"
+# # Keyboard customizer
+# cask "karabiner-elements"
+# # Software for Logitech devices
+# cask "logitech-options"
+# # Research management tool
+# cask "mendeley-reference-manager"
+# # Utility to toggle dark mode
+# cask "nightowl"
+# # Knowledge base that works on top of a local folder of plain text Markdown files
+# cask "obsidian"
+# # IDE for professional Python development
+# cask "pycharm"
+# # Instant messaging tool
+# cask "qq"
+# # PDF reader and note-taking application
+# cask "skim"
+# # Team communication and collaboration software
+# cask "slack"
+# # Graphical client for Git version control
+# cask "sourcetree"
+# # Utility for producing audio feedback when typing
+# cask "tickeys"
+# # Open-source code editor
+# cask "visual-studio-code"
+# # Mind mapping and brainstorming tool
+# cask "xmind"
+# # Open-source version of the X.Org X Window System
+# cask "xquartz"
+# mas "AdGuard for Safari", id: 1440147259
+# mas "Bear", id: 1091189122
+# mas "CapCut", id: 1500855883
+# mas "com.pearlmountainsoft.CollageIt3Pro", id: 675502824
+# mas "DuckDuckGo Privacy for Safari", id: 1482920575
+# mas "Evernote", id: 406056744
+# mas "Evernote Web Clipper", id: 1481669779
+# mas "Fotor Photo Editor", id: 503039729
+# mas "Grammarly for Safari", id: 1462114288
+# mas "Helium", id: 1054607607
+# mas "HiSuite", id: 1232508288
+# mas "Hush", id: 1544743900
+# mas "Instantane", id: 946685517
+# mas "Instapaper Save", id: 1481302432
+# mas "Kindle", id: 405399194
+# mas "Magnet", id: 441258766
+# mas "Manico", id: 724472954
+# mas "Mendeley Web Importer", id: 1577516695
+# mas "Microsoft Excel", id: 462058435
+# mas "Microsoft OneNote", id: 784801555
+# mas "Microsoft Outlook", id: 985367838
+# mas "Microsoft PowerPoint", id: 462062816
+# mas "Microsoft Remote Desktop", id: 1295203466
+# mas "Microsoft Word", id: 462054704
+# mas "NewsGuard", id: 1485417785
+# mas "Night Eye", id: 1450504903
+# mas "Paste", id: 967805235
+# mas "Push to Kindle", id: 1548529953
+# mas "Reeder", id: 1529448980
+# mas "scite", id: 1551820111
+# mas "Secrets", id: 973049011
+# mas "Spark", id: 1176895641
+# mas "Super Agent", id: 1568262835
+# mas "The Unarchiver", id: 425424353
+# mas "Things", id: 904280696
+# mas "TickTick", id: 966085870
+# mas "Vimari", id: 1480933944
+# mas "Wayback Machine", id: 1472432422
+# mas "WeChat", id: 836500024
+# mas "WhatsApp", id: 1147396723
+# mas "穿梭", id: 1345035954
+# mas "网易有道词典", id: 491854842
